@@ -25,8 +25,8 @@ function navegar(rota) {
         content.innerHTML = `
             <h2 class="welcome-title">Bem-vindo ao Dashboard!</h2>
             <nav class="cards-nav">
-                <div class="card"><div class="card-icon"><i class="fa-regular fa-book"></i></div><h3>Panorama Geral</h3><button class="btn-orange" onclick="navegar('geral')">Acessar →</button></div>
-                <div class="card"><div class="card-icon"><i class="fa-regular fa-graduation-cap"></i></div><h3>Panorama por Curso</h3><button class="btn-orange" onclick="navegar('curso')">Acessar →</button></div>
+                <div class="card"><div class="card-icon"><i class="fa-solid fa-book"></i></div><h3>Panorama Geral</h3><button class="btn-orange" onclick="navegar('geral')">Acessar →</button></div>
+                <div class="card"><div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div><h3>Panorama por Curso</h3><button class="btn-orange" onclick="navegar('curso')">Acessar →</button></div>
                 <div class="card"><div class="card-icon"><i class="fa-solid fa-people-group"></i></div><h3>Panorama por Turma</h3><button class="btn-orange" onclick="navegar('turma')">Acessar →</button></div>
                 <div class="card"><div class="card-icon"><i class="fa-regular fa-circle-user"></i></div><h3>Panorama por Aluno</h3><button class="btn-orange" onclick="navegar('aluno')">Acessar →</button></div>
             </nav>
