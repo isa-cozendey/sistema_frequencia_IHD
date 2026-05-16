@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Faltas - IFC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="background-gradient">
+        <header class="top-header">
+            <div class="logo-area" onclick="navegar('home')" title="Voltar para o início">
+                <span style="color: #25665b; font-weight: bold; font-size: 20px;">INSTITUTO FEDERAL</span>
+                <span style="font-size: 12px; display: block; color: #0f3d36;">Catarinense - Campus Videira</span>
+            </div>
+            <div class="status-area">
+                <span class="badge-orange">Dashboard</span>
+                <span class="status-text">Monitoramento de Faltas</span>
+            </div>
+        </header>
+
+        <div class="container">
+            <main id="dynamic-content">
+                </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
